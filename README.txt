@@ -18,3 +18,6 @@
 
 [v1.3] 확인된 계산 방식 유지: 10K 기록에서 1km 훈련 페이스를 구한 뒤 400m/200m/100m 각각 독립 계산 및 정수 반올림. 100m 반올림 결과를 배수로 사용하지 않음.
 기존 Vercel projectId 및 Production URL은 ZIP만으로 확인할 수 없으므로 배포 전 확인 필요.
+
+[v1.4] PART별 입력 옆에 기본 10K/km 페이스, 훈련 보정(±10초/km), 훈련 페이스 표시. 이미지 공유 대상은 PART별 체크박스로 1개 이상 자유 선택(예: PART 2·3만). 기존 로컬 저장 키, PWA manifest/start_url/scope 유지.
+기존 프로젝트 업데이트 전 Vercel projectId 및 Production URL 확인 필요. ZIP 생성은 배포가 아니며 기존 URL/홈 화면/데이터 검증은 배포 후 별도 수행.
